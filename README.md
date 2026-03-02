@@ -1,13 +1,13 @@
 ## Hadoop on Docker Containers
 
 
-![alt tag](https://raw.githubusercontent.com/madaibaba/hadoop-on-docker/master/hadoop-on-docker.png)
+![alt tag](https://raw.githubusercontent.com/houalexdev/hadoop-on-docker/master/hadoop-on-docker.png)
 
 
 #### 1. Clone Github Repository
 
 ```
-git clone https://github.com/madaibaba/hadoop-on-docker
+git clone https://github.com/houalexdev/hadoop-on-docker
 ```
 
 #### 2. Pull Docker Image

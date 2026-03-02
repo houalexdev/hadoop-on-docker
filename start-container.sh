@@ -23,7 +23,7 @@ sudo docker run -itd \
                 --name hadoop-master \
                 --hostname hadoop-master \
                 --privileged \
-                madaibaba/hadoop-on-docker:2.0 &> /dev/null
+                houalexdev/hadoop-on-docker:2.0 &> /dev/null
 
 
 # start hadoop slave container
@@ -37,7 +37,7 @@ do
 	                --name hadoop-slave$i \
 	                --hostname hadoop-slave$i \
 	                --privileged \
-	                madaibaba/hadoop-on-docker:2.0 &> /dev/null
+	                houalexdev/hadoop-on-docker:2.0 &> /dev/null
 	i=$(( $i + 1 ))
 done 
 
